@@ -5,11 +5,19 @@ body {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  color: #000;
 }
 
 a {
   text-decoration: none;
 }
+a:visited {
+  color: #8b0000;
+}
+a:hover {
+  color: #5f9ea0;
+}
+
 body p,
 body ul {
   line-height: 30px;
