@@ -5,63 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV by Nataly Zernova</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Nataly Zernova</h1>
-    <p>Junior Developer</p>
-    <img
-      src="images/photo_2021-03-15 18.29.06.jpeg"
-      alt="my photo"
-      width="300"
-    />
-    <img
+    <div class="flex">
+      <div class="greeting">
+        <h1>Nataly <br />Zernova</h1>
+        <p>Junior Developer</p>
+        <section class="contacts">
+          <ul>
+            <li>
+              <p>Email:</p>
+              <a href="mailto:nz_18@mail.ru">nz_18@mail.ru</a>
+            </li>
+            <li>
+              <p>Telegram:</p>
+              <a href="https://t.me/NatalyZernova">NatalyZernova</a>
+            </li>
+            <li>
+              <p>GitHub:</p>
+              <a href="https://github.com/zena7">zena7</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <img
+        src="images/photo_2021-03-15 18.29.06.jpeg"
+        alt="my photo"
+        width="35%"
+      />
+    </div>
+    <!-- <img
       src="images/nFpMJlQmJxM.jpeg"
       alt="greeting with a penguin"
       width="400"
-    />
-    <section>
-      <h2>1.Personal information</h2>
+    /> -->
+
+    <div class="information">
+      <h2>A few words about me</h2>
+      <p>
+        My name is Nataly and I'm scientist. I graduated with honors the
+        Chemical faculty of Lobachevsky University in city Nizhny Novgorod. I
+        have 10 publications in leading scientific journals.
+      </p>
+      <p>
+        Programming is my new hobby because of it I decided to change my life.
+        Programming attracted me with the opportunity to make mistakes and
+        improve myself.
+      </p>
+    </div>
+    <section class="qualities">
+      <h2>Personal qualities:</h2>
       <ul>
-        <li>
-          <p>Email:</p>
-          <a href="mailto:nz_18@mail.ru">nz_18@mail.ru</a>
-        </li>
-        <li>
-          <p>Telegram:</p>
-          <a href="https://t.me/NatalyZernova">NatalyZernova</a>
-        </li>
-        <li>
-          <p>GitHub:</p>
-          <a href="https://github.com/zena7">zena7</a>
-        </li>
+        <li>Communicative,</li>
+        <li>Creative,</li>
+        <li>Determined,</li>
+        <li>Diligent,</li>
+        <li>Inquisitive,</li>
+        <li>Open-minded,</li>
+        <li>Ability to work efficiently both individually and in a team,</li>
+        <li>Organizational skills,</li>
+        <li>Strong analytical thinking,</li>
+        <li>Willingness to learn.</li>
       </ul>
     </section>
-    <h2>2. A few words about me</h2>
-    <p>
-      My name is Nataly and I'm scientist. I graduated with honors the Chemical
-      faculty of Lobachevsky University in city Nizhny Novgorod. I have 10
-      publications in leading scientific journals.
-    </p>
-    <p>
-      Programming is my new hobby because of it I decided to change my life.
-      Programming attracted me with the opportunity to make mistakes and improve
-      myself.
-    </p>
-    <h2>3. Personal qualities:</h2>
-    <ul>
-      <li>Communicative,</li>
-      <li>Creative,</li>
-      <li>Determined,</li>
-      <li>Diligent,</li>
-      <li>Inquisitive,</li>
-      <li>Open-minded,</li>
-      <li>Ability to work efficiently both individually and in a team,</li>
-      <li>Organizational skills,</li>
-      <li>Strong analytical thinking,</li>
-      <li>Willingness to learn.</li>
-    </ul>
-    <h2>3. Code example:</h2>
+    <h2>Code example:</h2>
     <p>It's function for working with strings:</p>
     <pre><code>
       function camelize(str) { 
@@ -73,7 +86,7 @@
         return arr.join('');
       };
     </code></pre>
-    <h2>4. Graduation:</h2>
+    <h2>Graduation:</h2>
     <ul>
       <li>
         Russia, National Research Lobachevsky State University of Nizhni
@@ -88,7 +101,7 @@
         <a href="https://learn.javascript.ru/">learn.javascript.ru</a> 2020
       </li>
     </ul>
-    <h2>5. English level:</h2>
+    <h2>English level:</h2>
     <p>A2 - Pre-Intermediate.</p>
   </body>
 </html>
