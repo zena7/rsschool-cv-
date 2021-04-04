@@ -12,12 +12,21 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body >
+    <div class="background">
+      <nav class="nav">
+      <a href="#contacts">contacts</a>
+      <a href="#about me">about me</a>
+      <a href="#qualities">qualities</a>
+      <a href="#code-example">code example</a>
+      <a href="#graduation">graduation</a>
+      <a href="#english-level">english level</a>
+    </nav>
     <div class="flex">
       <div class="greeting">
         <h1>Nataly <br />Zernova</h1>
         <p>Junior Developer</p>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
           <ul>
             <li>
               <p>Email:</p>
@@ -40,12 +49,16 @@
         width="35%"
       />
     </div>
-    <div class="information">
+    <div class="information" id="about me">
       <h2>A few words about me</h2>
       <p>
         My name is Nataly and I'm scientist. I graduated with honors the
         Chemical faculty of Lobachevsky University in city Nizhny Novgorod. I
-        have 10 publications in leading scientific journals.
+        have
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=57192075339"
+          >10 publications</a
+        >
+        in leading scientific journals.
       </p>
       <p>
         Programming is my new hobby because of it I decided to change my life.
@@ -53,7 +66,7 @@
         improve myself.
       </p>
     </div>
-    <section class="qualities">
+    <section class="qualities" id="qualities">
       <h2>Personal qualities:</h2>
       <ul>
         <li>Communicative,</li>
@@ -68,7 +81,7 @@
         <li>Willingness to learn.</li>
       </ul>
     </section>
-    <h2>Code example:</h2>
+    <h2 id="code-example">Code example:</h2>
     <p>It's function for working with strings:</p>
     <pre><code>
       function camelize(str) { 
@@ -80,7 +93,7 @@
         return arr.join('');
       };
     </code></pre>
-    <h2>Graduation:</h2>
+    <h2 id="graduation">Graduation:</h2>
     <ul>
       <li>
         Russia, National Research Lobachevsky State University of Nizhni
@@ -95,7 +108,18 @@
         <a href="https://learn.javascript.ru/">learn.javascript.ru</a> 2020
       </li>
     </ul>
-    <h2>English level:</h2>
+    <h2 id="english-level">English level:</h2>
     <p>A2 - Pre-Intermediate.</p>
   </body>
+  <footer class="footer">
+    <div class="footer-flex">
+      <a href="https://github.com/zena7"> Nataly Zernova</a>
+      <p>, 2021</p>
+    </div>
+    <a href="https://rs.school/js/"
+      ><img src="./images/rs_school_js.svg" alt="logo rs-school" width="120px"
+    /></a>
+  </footer>
+</div>
+</div>
 </html>
