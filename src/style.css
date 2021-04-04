@@ -7,12 +7,15 @@ body {
   margin-right: auto;
   color: #000;
 }
-
+body a {
+  text-decoration: none;
+}
 a:visited {
   color: #800080;
 }
 a:hover {
   color: #8b0000;
+  text-decoration: underline;
 }
 
 body p,
