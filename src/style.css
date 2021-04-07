@@ -66,8 +66,7 @@ h2 {
   display: inline;
 }
 .information p {
-  text-indent: 30px;
-  margin-bottom: 0;
+  margin-bottom: 10;
   margin-top: 0;
 }
 .qualities ul {
