@@ -39,7 +39,8 @@ body ul {
 }
 h2 {
   font-size: 32px;
-  margin-top: 1.5em;
+  padding-top: 0.6em;
+  margin-top: 0;
 }
 .greeting h1 {
   font-size: 92px;
@@ -56,6 +57,7 @@ h2 {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .contacts ul {
   line-height: 36px;
   padding-top: 20px;
@@ -72,6 +74,7 @@ h2 {
 }
 .qualities ul {
   margin-top: 0;
+  margin-bottom: 0;
   line-height: 1.9rem;
 }
 
@@ -106,14 +109,19 @@ a img:hover {
 .nav a {
   color: #000;
   font-size: 21px;
-  padding: 4px 6px;
+  padding: 10px 6px;
   margin-right: 18px;
   text-transform: uppercase;
   text-decoration: none;
-  /* box-shadow: 0 0 0 1px; */
 }
 .nav a:hover {
-  box-shadow: 0 0 0 1px;
+  box-shadow: 0 0 6px 1px #a9a9a9;
+  transition: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.anchor {
+  padding-top: 79px;
 }
 
 .nav a:target {
