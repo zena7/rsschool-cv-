@@ -1,3 +1,1 @@
-https://zena7.github.io/rsschool-cv-/cv
-
-https://zena7.github.io/rsschool-cv-/
+The [link](https://zena7.github.io/rsschool-cv/) to my CV file.

@@ -9,7 +9,9 @@ body {
 }
 body a {
   text-decoration: none;
+  color: #000;
 }
+
 a:visited {
   color: #800080;
 }
@@ -36,6 +38,7 @@ body ul {
 .flex img {
   flex-grow: 1;
   padding: 20px;
+  max-height: 570px;
 }
 h2 {
   font-size: 32px;
