@@ -36,6 +36,8 @@ body ul {
   flex-grow: 3;
 }
 .flex img {
+  position: relative;
+  z-index: -1;
   flex-grow: 1;
   padding: 20px;
   max-height: 570px;
@@ -46,6 +48,8 @@ h2 {
   margin-top: 0;
 }
 .greeting h1 {
+  position: relative;
+  z-index: -1;
   font-size: 92px;
   line-height: 100px;
   padding-top: 10px;
@@ -88,9 +92,8 @@ h2 {
 }
 
 .footer img {
-  display: inline-block;
+  display: block;
   margin: 0 auto;
-  margin-left: 440px;
   padding-top: 10px;
 }
 a img:hover {
@@ -125,4 +128,61 @@ a img:hover {
 
 .nav a:target {
   box-shadow: 0 0 0 1px;
+}
+
+.top {
+  position: fixed;
+  right: 40px;
+  bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  .flex img {
+    margin: 10px 0px;
+    top: 20px;
+  }
+  .nav {
+    padding-bottom: 10px;
+  }
+
+  .nav a {
+    font-size: 20px;
+    padding: 8px 4px;
+    line-height: 35px;
+  }
+  .greeting h1 {
+    top: 35px;
+  }
+  body {
+    padding-left: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .media-size {
+    width: 760px;
+  }
+  .greeting h1 {
+    top: 40px;
+  }
+  .flex img {
+    /* height: 100px; */
+  }
+}
+
+@media (max-width: 500px) {
+  .media-size {
+    width: 500px;
+  }
+  .greeting {
+    margin-right: 20px;
+    line-height: 60px;
+  }
+  .greeting h1 {
+    font-size: 56px;
+    line-height: 50px;
+  }
+  .greeting p {
+    padding-top: 40px;
+  }
 }
