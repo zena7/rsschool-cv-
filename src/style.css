@@ -41,6 +41,7 @@ body ul {
   flex-grow: 1;
   padding: 20px;
   max-height: 570px;
+  margin-top: 3px;
 }
 h2 {
   font-size: 32px;
@@ -102,7 +103,7 @@ h2 {
   padding: 30px 0px;
   position: fixed;
   top: 0;
-  background: #ffffff;
+  background: rgb(255, 255, 255, 0.94);
   background-size: cover;
 }
 
