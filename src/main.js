@@ -1,3 +1,4 @@
+
 // import "../node_modules/normalize.css";
 // import "./styles/comon.css"
 // import "./style.css";
@@ -22,3 +23,5 @@ window.onload  = function(){
   }
 }
 
+
+// хочу добавить выделение активной якорной ссылки
